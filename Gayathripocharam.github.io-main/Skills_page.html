@@ -1962,7 +1962,7 @@
         // ── Render a cert card ──
         function certCard(cert) {
           return `
-            <a href="${cert.pdf || `data/Data for the certificates/${cert.title}.pdf`}"
+            <a href="${cert.pdf || `data/certificates/${cert.title}.pdf`}"
               target="_blank" rel="noopener noreferrer"
               data-cat="${cert.category || ''}"
               class="cert-card block rounded-3xl bg-white/70 backdrop-blur-xl p-6 shadow-xl shadow-slate-200/30
@@ -1970,7 +1970,7 @@
                 transition-all duration-300 group cursor-pointer">
               <div class="relative aspect-video rounded-xl bg-slate-100/50 mb-5 overflow-hidden border border-slate-100
                 flex items-center justify-center p-6">
-                <img src="${cert.image || `data/Data for the certificates/${cert.title}.png`}"
+                <img src="${cert.image || `data/certificates/${cert.title}.png`}"
                   alt="${cert.title}"
                   class="w-20 h-20 object-contain drop-shadow-sm transition-transform duration-500 group-hover:scale-110"
                   onerror="this.src='https://cdn-icons-png.flaticon.com/512/1087/1087927.png'">

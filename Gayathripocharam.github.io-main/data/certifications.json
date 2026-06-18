@@ -7,7 +7,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
     "description": "Learned to solve real-world problems using Java — covering arrays, CSV parsing, OOP fundamentals, and algorithmic thinking in a project-based curriculum from Duke University.",
     "tags": ["Java", "OOP", "Algorithms", "Duke University"],
-    "pdf": "data/Data for the certificates/Java Programming.pdf"
+    "pdf": "data/certificates/Java Programming.pdf"
   },
   {
     "title": "Programming for Everybody (Getting Started with Python)",
@@ -17,7 +17,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
     "description": "Foundational Python programming covering variables, expressions, conditionals, functions, and loops — the first course in the renowned Python for Everybody specialization by Dr. Chuck.",
     "tags": ["Python", "Beginner", "University of Michigan"],
-    "pdf": "data/Data for the certificates/Programming for Everybody (Getting Started with Python).pdf"
+    "pdf": "data/certificates/Programming for Everybody (Getting Started with Python).pdf"
   },
   {
     "title": "Data Structures Using Python — An Introduction",
@@ -27,7 +27,7 @@
     "image": "https://cdn-icons-png.flaticon.com/512/2103/2103658.png",
     "description": "Core data structures including lists, stacks, queues, trees, linked lists, and graphs implemented in Python with hands-on examples and complexity analysis.",
     "tags": ["Python", "Data Structures", "Algorithms"],
-    "pdf": "data/Data for the certificates/Data Structures Using Python - An Introduction.pdf"
+    "pdf": "data/certificates/Data Structures Using Python - An Introduction.pdf"
   },
   {
     "title": "Object-Oriented Design",
@@ -37,7 +37,7 @@
     "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
     "description": "Design principles including SOLID, UML class diagrams, design patterns (MVC, Observer), and software architecture best practices from the University of Alberta.",
     "tags": ["OOP", "Design Patterns", "UML", "SOLID"],
-    "pdf": "data/Data for the certificates/Object-Oriented Design.pdf"
+    "pdf": "data/certificates/Object-Oriented Design.pdf"
   },
   {
     "title": "Introduction to Cyber Attacks",
@@ -47,7 +47,7 @@
     "image": "https://cdn-icons-png.flaticon.com/512/3064/3064197.png",
     "description": "Threat modelling, common attack vectors (DoS, SQL injection, malware), vulnerability analysis, and foundational cybersecurity concepts from NYU Tandon School of Engineering.",
     "tags": ["Cyber Security", "Threat Modelling", "NYU"],
-    "pdf": "data/Data for the certificates/Introduction to Cyber Attacks.pdf"
+    "pdf": "data/certificates/Introduction to Cyber Attacks.pdf"
   },
   {
     "title": "The Arduino Platform and C Programming",
@@ -57,7 +57,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg",
     "description": "Introduction to the Arduino hardware platform and C-based firmware development — covering GPIO, sensors, serial communication, and embedded systems prototyping.",
     "tags": ["Arduino", "C Programming", "Embedded Systems", "IoT"],
-    "pdf": "data/Data for the certificates/The Arduino Platform and C Programming.pdf"
+    "pdf": "data/certificates/The Arduino Platform and C Programming.pdf"
   },
   {
     "title": "Interfacing with the Arduino",
@@ -67,7 +67,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg",
     "description": "Advanced Arduino interfacing — connecting sensors, actuators, LCDs, and wireless modules to build complete IoT prototypes with real-time data processing.",
     "tags": ["Arduino", "IoT", "Sensors", "UC Irvine"],
-    "pdf": "data/Data for the certificates/Interfacing with the Arduino.pdf"
+    "pdf": "data/certificates/Interfacing with the Arduino.pdf"
   },
   {
     "title": "Quantum Computing For Everyone — An Introduction",
@@ -77,7 +77,7 @@
     "image": "https://cdn-icons-png.flaticon.com/512/4221/4221419.png",
     "description": "Qubits, quantum gates, superposition, entanglement, and the basics of quantum algorithms — making quantum computing accessible with real-world applications.",
     "tags": ["Quantum Computing", "Qubits", "Emerging Tech"],
-    "pdf": "data/Data for the certificates/Quantum Computing For Everyone - An Introduction.pdf"
+    "pdf": "data/certificates/Quantum Computing For Everyone - An Introduction.pdf"
   },
   {
     "title": "Nanotechnology and Nanosensors, Part 1",
@@ -87,7 +87,7 @@
     "image": "https://cdn-icons-png.flaticon.com/512/4149/4149643.png",
     "description": "Fundamentals of nanotechnology, nanomaterial properties, and nanosensor design principles — with applications in healthcare, environmental monitoring, and smart materials.",
     "tags": ["Nanotechnology", "Nanosensors", "Research", "Technion"],
-    "pdf": "data/Data for the certificates/Nanotechnology and Nanosensors, Part1.pdf"
+    "pdf": "data/certificates/Nanotechnology and Nanosensors, Part1.pdf"
   },
   {
     "title": "Write Professional Emails in English",
@@ -97,6 +97,6 @@
     "image": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
     "description": "Best practices for clear, concise, and professional business communication in written English — covering tone, structure, subject lines, and cross-cultural communication.",
     "tags": ["Communication", "Professional", "Georgia Tech"],
-    "pdf": "data/Data for the certificates/Write Professional Emails in English.pdf"
+    "pdf": "data/certificates/Write Professional Emails in English.pdf"
   }
 ]
