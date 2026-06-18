@@ -1,0 +1,67 @@
+{
+  "name": "Pocharam Gayathri",
+  "title": "data-science Engineer | Full Stack Developer",
+  "location": "Andhra Pradesh, India",
+  "contact": {
+    "email": "pocharamgayathri@gmail.com",
+    "github": "https://github.com/Gayathripocharam",
+    "linkedin": "https://www.linkedin.com/in/Gayathripocharam"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "university": "Woxsen University",
+      "duration": "2024 – Present",
+      "specialization": "Data Science & AI (data-science) & Computer Science",
+      "focusAreas": [
+        "Data Structures & Algorithms",
+        "Data Science & AI (data-science)",
+        "Computer Networks",
+        "Web Technologies"
+      ],
+      "relevantCoursework": [
+        "Data Structures & Algorithms",
+        "data-science System Design",
+        "Computer Networks",
+        "Web Development"
+      ]
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      "Python",
+      "C",
+      "C++",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "hardwarePlatforms": [
+      "Scikit-Learn",
+      "PyTorch",
+      "Machine Learning Libraries"
+    ],
+    "toolsAndTechnologies": [
+      "Git",
+      "GitHub",
+      "Tinkercad",
+      "REST APIs (Basics)",
+      "Version Control Systems"
+    ],
+    "coreConcepts": [
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Networking Fundamentals",
+      "Machine Learning & AI",
+      "Problem Solving"
+    ]
+  },
+  "certifications": [
+    {
+      "title": "Git and GitHub",
+      "provider": "IBM (Coursera)",
+      "category": "Version Control & Collaboration"
+    }
+  ],
+  "profileSummary": "Detail-oriented and driven B.Tech student specializing in data-science and Full Stack Development, with a strong foundation in Data Structures, Networking, and Machine Learning & AI. Skilled in building scalable applications and intelligent systems using modern development tools and hardware platforms. Passionate about leveraging technology to solve real-world problems through efficient system design, clean code practices, and innovative thinking. Actively seeking opportunities to contribute to impactful engineering solutions and continuously expand technical expertise."
+}
