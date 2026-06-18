@@ -98,15 +98,5 @@
     "description": "Best practices for clear, concise, and professional business communication in written English — covering tone, structure, subject lines, and cross-cultural communication.",
     "tags": ["Communication", "Professional", "Georgia Tech"],
     "pdf": "data/Data for the certificates/Write Professional Emails in English.pdf"
-  },
-  {
-    "title": "Understanding and Optimizing Campus Building Energy",
-    "issuer": "Woxsen University",
-    "date": "2025",
-    "category": "Research",
-    "image": "data/Data for the certificates/campus-energy-workshop.png",
-    "description": "Participated in a hands-on workshop focused on analyzing and optimizing energy consumption in campus buildings using data-driven and sustainable approaches.",
-    "tags": ["Energy Optimization", "Sustainability", "Workshop"],
-    "pdf": "data/Data for the certificates/campus-energy-workshop.png"
   }
 ]
