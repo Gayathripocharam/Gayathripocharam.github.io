@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="animations.css">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pocharam Gayathri | data science & Network Defense</title>
-    <meta name="description" content="Pocharam Gayathri is a data science enthusiast focusing on Data Science, Encryption, and Threat Analysis.">
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 2.5rem; max-width: 800px; margin: auto; line-height: 1.6; color: #1e293b; background-color: #f8fafc; }
-        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
-        h1 { color: #f20d46; font-size: 2rem; margin-top: 0; }
-        a { color: #6366f1; text-decoration: none; font-weight: 600; transition: color 0.2s; }
-        a:hover { color: #4f46e5; text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pocharam Gayathri | Data Analytics & Business Intelligence</title>
+  <meta name="description"
+    content="Pocharam Gayathri is a data science student specializing in data analytics, visualization, and extracting actionable insights from complex datasets.">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding: 2.5rem;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+      color: #1e293b;
+      background-color: #f8fafc;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+
+    h1 {
+      color: #f20d46;
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    a {
+      color: #6366f1;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+
+    a:hover {
+      color: #4f46e5;
+      text-decoration: underline;
+    }
+  </style>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link rel="icon" href="icon.png" type="image/png">
   <script>
@@ -26,6 +57,7 @@
     };
   </script>
 </head>
+
 <body>
   <!-- ── Global Ambient Lighting Orbs ── -->
   <div class="ambient-orb-center" aria-hidden="true"></div>
@@ -323,8 +355,7 @@
             <div class="relative shrink-0">
               <div
                 class="w-9 h-9 rounded-full overflow-hidden border-2 border-white/70 shadow-md transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[0_0_14px_rgba(242,13,70,0.30)] group-hover:scale-105">
-                <img src="icon.png" alt="Pocharam Gayathri"
-                  class="w-full h-full object-cover">
+                <img src="icon.png" alt="Pocharam Gayathri" class="w-full h-full object-cover">
               </div>
               <!-- Tiny online indicator dot -->
               <span
@@ -846,65 +877,66 @@
     <div class="h-28 shrink-0"></div>
 
     <div class="card">
-        <h1>data science & Network Defense</h1>
-        <p>
-        <strong>Pocharam Gayathri</strong> focuses intensely on building secure applications with robust principles covering Data Science, Cryptography, and Threat Analysis.
-        </p>
-        <p>
-        By integrating secure coding practices and modern encryption algorithms, she ensures the systems she architects — particularly embedded data-science devices and interconnected Web frameworks — are resilient against emerging digital vulnerabilities and data breaches.
-        </p>
-        
-        <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
-            <p><a href="index.html">← Back to Main Portfolio</a></p>
-        </div>
+      <h1>Data Analytics & Business Intelligence</h1>
+      <p>
+        <strong>Pocharam Gayathri</strong> specializes in extracting actionable insights from complex datasets, performing statistical analysis, and creating interactive data visualizations that drive decision-making.
+      </p>
+      <p>
+        She is skilled in modern data tools and libraries including Python (Pandas, NumPy, Seaborn), SQL, and Tableau, enabling her to clean, transform, and model data to solve real-world problems and optimize operations.
+      </p>
+
+      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+        <p><a href="index.html">← Back to Main Portfolio</a></p>
+      </div>
     </div>
 
-  <!-- ── Ambient Card Lighting JS ── -->
-  <script>
-  (function(){
-    // ── 1. Inject .ambient-spotlight span into every .card-premium / .card-lit
-    function injectSpotlights(){
-      document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function(card){
-        if(!card.querySelector('.ambient-spotlight')){
-          var s = document.createElement('span');
-          s.className = 'ambient-spotlight';
-          s.setAttribute('aria-hidden','true');
-          card.appendChild(s);
+    <!-- ── Ambient Card Lighting JS ── -->
+    <script>
+      (function () {
+        // ── 1. Inject .ambient-spotlight span into every .card-premium / .card-lit
+        function injectSpotlights() {
+          document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function (card) {
+            if (!card.querySelector('.ambient-spotlight')) {
+              var s = document.createElement('span');
+              s.className = 'ambient-spotlight';
+              s.setAttribute('aria-hidden', 'true');
+              card.appendChild(s);
+            }
+          });
         }
-      });
-    }
 
-    // ── 2. Track mouse inside each card → set CSS vars --card-x / --card-y
-    function bindCardMouse(){
-      document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function(card){
-        if(card.dataset.ambientBound) return;
-        card.dataset.ambientBound = '1';
-        card.addEventListener('mousemove', function(e){
-          var r = card.getBoundingClientRect();
-          var x = ((e.clientX - r.left) / r.width  * 100).toFixed(1) + '%';
-          var y = ((e.clientY - r.top)  / r.height * 100).toFixed(1) + '%';
-          card.style.setProperty('--card-x', x);
-          card.style.setProperty('--card-y', y);
-        });
-      });
-    }
+        // ── 2. Track mouse inside each card → set CSS vars --card-x / --card-y
+        function bindCardMouse() {
+          document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function (card) {
+            if (card.dataset.ambientBound) return;
+            card.dataset.ambientBound = '1';
+            card.addEventListener('mousemove', function (e) {
+              var r = card.getBoundingClientRect();
+              var x = ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%';
+              var y = ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%';
+              card.style.setProperty('--card-x', x);
+              card.style.setProperty('--card-y', y);
+            });
+          });
+        }
 
-    // ── 3. On load + after dynamic content (MutationObserver)
-    function init(){
-      injectSpotlights();
-      bindCardMouse();
-    }
-    if(document.readyState === 'loading'){
-      document.addEventListener('DOMContentLoaded', init);
-    } else {
-      init();
-    }
-    // Watch for dynamically added cards
-    if(window.MutationObserver){
-      var obs = new MutationObserver(function(){ init(); });
-      obs.observe(document.body, { childList: true, subtree: true });
-    }
-  })();
-  </script>
+        // ── 3. On load + after dynamic content (MutationObserver)
+        function init() {
+          injectSpotlights();
+          bindCardMouse();
+        }
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', init);
+        } else {
+          init();
+        }
+        // Watch for dynamically added cards
+        if (window.MutationObserver) {
+          var obs = new MutationObserver(function () { init(); });
+          obs.observe(document.body, { childList: true, subtree: true });
+        }
+      })();
+    </script>
 </body>
+
 </html>

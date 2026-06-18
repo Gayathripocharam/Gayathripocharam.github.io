@@ -1,50 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <link rel="stylesheet" href="animations.css">
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pocharam Gayathri| AI & Full Stack Development</title>
-  <meta name="description"
-    content="Pocharam Gayathri is a AI & Data Science enthusiast focused on intelligent systems, analytics, and real-world AI solutions.">
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      padding: 2.5rem;
-      max-width: 800px;
-      margin: auto;
-      line-height: 1.6;
-      color: #1e293b;
-      background-color: #f8fafc;
-    }
-
-    .card {
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    }
-
-    h1 {
-      color: #f20d46;
-      font-size: 2rem;
-      margin-top: 0;
-    }
-
-    a {
-      color: #6366f1;
-      text-decoration: none;
-      font-weight: 600;
-      transition: color 0.2s;
-    }
-
-    a:hover {
-      color: #4f46e5;
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocharam Gayathri | AI, Data Science & Full Stack Development</title>
+    <meta name="description" content="Pocharam Gayathri is a Data Science student passionate about building intelligent applications powered by AI, Machine Learning, Data Analytics, and Modern Web Technologies.">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; padding: 2.5rem; max-width: 800px; margin: auto; line-height: 1.6; color: #1e293b; background-color: #f8fafc; }
+        .card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); }
+        h1 { color: #f20d46; font-size: 2rem; margin-top: 0; }
+        a { color: #6366f1; text-decoration: none; font-weight: 600; transition: color 0.2s; }
+        a:hover { color: #4f46e5; text-decoration: underline; }
+    </style>
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link rel="icon" href="icon.png" type="image/png">
   <script>
@@ -57,7 +26,6 @@
     };
   </script>
 </head>
-
 <body>
   <!-- ── Global Ambient Lighting Orbs ── -->
   <div class="ambient-orb-center" aria-hidden="true"></div>
@@ -355,7 +323,8 @@
             <div class="relative shrink-0">
               <div
                 class="w-9 h-9 rounded-full overflow-hidden border-2 border-white/70 shadow-md transition-all duration-300 group-hover:border-primary/40 group-hover:shadow-[0_0_14px_rgba(242,13,70,0.30)] group-hover:scale-105">
-                <img src="icon.png" alt="Pocharam Gayathri" class="w-full h-full object-cover">
+                <img src="icon.png" alt="Pocharam Gayathri"
+                  class="w-full h-full object-cover">
               </div>
               <!-- Tiny online indicator dot -->
               <span
@@ -877,69 +846,65 @@
     <div class="h-28 shrink-0"></div>
 
     <div class="card">
-      <h1>Data Analytics & Web3 Technologies</h1>
-      <p>
-        <strong>Pocharam Gayathri</strong> architects decentralized applications (dApps) and constructs immutable,
-        secure Smart Contracts on the Ethereum blockchain.
-      </p>
-      <p>
-        Her expertise extends across decentralized finance models, robust tokenomics, and exploring trustless consensus
-        mechanisms. Combining profound knowledge in cryptography with distributed networking, she designs resilient
-        solutions mapping the future topology of the internet.
-      </p>
-
-      <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
-        <p><a href="index.html">← Back to Main Portfolio</a></p>
-      </div>
+        <h1>AI, Data Science & Full Stack Development</h1>
+        <p>
+        <strong>Pocharam Gayathri</strong> is a Data Science student passionate about building intelligent applications powered by AI, Machine Learning, Data Analytics, and Modern Web Technologies. She develops end-to-end solutions that transform data into actionable insights and real-world products.
+        </p>
+        <p>
+        Her work spans predictive analytics, machine learning systems, full-stack web applications, and AI-powered platforms. By combining data-driven decision making with modern software engineering practices, she builds scalable solutions that solve practical business and societal challenges.
+        </p>
+        
+        <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #e2e8f0;">
+            <p><a href="index.html">← Back to Main Portfolio</a></p>
+        </div>
     </div>
 
-    <!-- ── Ambient Card Lighting JS ── -->
-    <script>
-      (function () {
-        // ── 1. Inject .ambient-spotlight span into every .card-premium / .card-lit
-        function injectSpotlights() {
-          document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function (card) {
-            if (!card.querySelector('.ambient-spotlight')) {
-              var s = document.createElement('span');
-              s.className = 'ambient-spotlight';
-              s.setAttribute('aria-hidden', 'true');
-              card.appendChild(s);
-            }
-          });
+  <!-- ── Ambient Card Lighting JS ── -->
+  <script>
+  (function(){
+    // ── 1. Inject .ambient-spotlight span into every .card-premium / .card-lit
+    function injectSpotlights(){
+      document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function(card){
+        if(!card.querySelector('.ambient-spotlight')){
+          var s = document.createElement('span');
+          s.className = 'ambient-spotlight';
+          s.setAttribute('aria-hidden','true');
+          card.appendChild(s);
         }
+      });
+    }
 
-        // ── 2. Track mouse inside each card → set CSS vars --card-x / --card-y
-        function bindCardMouse() {
-          document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function (card) {
-            if (card.dataset.ambientBound) return;
-            card.dataset.ambientBound = '1';
-            card.addEventListener('mousemove', function (e) {
-              var r = card.getBoundingClientRect();
-              var x = ((e.clientX - r.left) / r.width * 100).toFixed(1) + '%';
-              var y = ((e.clientY - r.top) / r.height * 100).toFixed(1) + '%';
-              card.style.setProperty('--card-x', x);
-              card.style.setProperty('--card-y', y);
-            });
-          });
-        }
+    // ── 2. Track mouse inside each card → set CSS vars --card-x / --card-y
+    function bindCardMouse(){
+      document.querySelectorAll('.card-premium, .card-lit, .glass-card').forEach(function(card){
+        if(card.dataset.ambientBound) return;
+        card.dataset.ambientBound = '1';
+        card.addEventListener('mousemove', function(e){
+          var r = card.getBoundingClientRect();
+          var x = ((e.clientX - r.left) / r.width  * 100).toFixed(1) + '%';
+          var y = ((e.clientY - r.top)  / r.height * 100).toFixed(1) + '%';
+          card.style.setProperty('--card-x', x);
+          card.style.setProperty('--card-y', y);
+        });
+      });
+    }
 
-        // ── 3. On load + after dynamic content (MutationObserver)
-        function init() {
-          injectSpotlights();
-          bindCardMouse();
-        }
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', init);
-        } else {
-          init();
-        }
-        // Watch for dynamically added cards
-        if (window.MutationObserver) {
-          var obs = new MutationObserver(function () { init(); });
-          obs.observe(document.body, { childList: true, subtree: true });
-        }
-      })();
-    </script>
+    // ── 3. On load + after dynamic content (MutationObserver)
+    function init(){
+      injectSpotlights();
+      bindCardMouse();
+    }
+    if(document.readyState === 'loading'){
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+    // Watch for dynamically added cards
+    if(window.MutationObserver){
+      var obs = new MutationObserver(function(){ init(); });
+      obs.observe(document.body, { childList: true, subtree: true });
+    }
+  })();
+  </script>
 </body>
-
 </html>
